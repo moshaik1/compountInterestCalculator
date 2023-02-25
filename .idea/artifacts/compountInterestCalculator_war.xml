@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="compountInterestCalculator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>compountInterestCalculator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="compountInterestCalculator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="compountInterestCalculator:war exploded" />
+    </root>
+  </artifact>
+</component>
